@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: cyan;
+}
+.lineargradient{
+    height: 200px;
+    background-image: linear-gradient(to bottom, darkblue, cyan);
+    /* background-image: linear-gradient(to left ,darkblue, cyan, yellowgreen); */
+    /* background-image: linear-gradient(to left ,darkblue 30%, cyan, yellowgreen ); */
+}
+.radialgradient{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(yellowgreen, deeppink, darkblue);
+
+}
+.conic{
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(yellowgreen, white, darkblue, deeppink);
+    border-radius: 50%;
+}
+h1{
+    font-size: 90px;
+    text-align: center;
+    background-image: linear-gradient(darkblue, deeppink, yellowgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    font-size: 170px;
+    text-align: center;
+    background-image: url('../images/gif/2.gif');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
